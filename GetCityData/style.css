@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+body {
+    font-family: 'Sofia' , sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color:lightblue;
+    padding: 100px 100px;
+}
+
+input {
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px;
+
+}
+
+
+.btn {
+    background-color: turquoise;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px;
+    cursor: pointer;
+}
+
+
+.btn:active {
+    transform: scale(1.25);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
