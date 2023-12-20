@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(50, 75, 75);
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-container {
+  color: white;
+  size: 300px;
+  display: flex;
+  flex-direction: row;
+  font-size: 250px;
+}
+
+.btn {
+  border-top: none;
+}
+
+.stop {
+  border-top: none;
+  font-size: 18px;
+  padding: 12px 44px;
+  cursor: pointer;
+  transition: ease-in-out 2s;
+  border-radius: 20px;
+  background-color: rgb(216, 12, 12);
+}
+
+.reset {
+  border-top: none;
+  font-size: 18px;
+  padding: 12px 44px;
+  cursor: pointer;
+  transition: ease-in-out 2s;
+  border-radius: 20px;
+  background-color: rgb(18, 148, 144);
+}
+
+.start {
+  border-top: none;
+  font-size: 18px;
+  padding: 12px 44px;
+  cursor: pointer;
+  transition: ease-in-out 1s;
+  border-radius: 20px;
+  background-color: rgb(18, 148, 20);
+}
+
+.stop:focus .reset:focus .Pause:focus {
+  transition: ease-in 0.3s;
+  outline: 0;
+}
